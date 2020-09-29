@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+/* ------------- NavBar Component --------- */
+
+.nav__bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: 9999;
+}
+
+.form-inline .form-control{
+    width: 260px;
+}
+.bg__blue{
+    background-color: #007bff;
+}
+.spacer{
+    flex: 1 1 0 ;
+}
+.dropdown-menu{
+    min-width: 6rem;
+}
+.dropdown-item{
+    padding: .25rem 1rem;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.searchButton{
+    right: 1.2rem;
+}
+.searchButton button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.searchButton button i{
+    color: #007bff;
+}
+
+/* ---------- Shared Moulded -------------- */
+
+.sign__in__button{
+    text-align: right;
+}
+
+/*------------------ Home Component------------------*/
+.__container{
+    display: flex;
+    align-items: center;
+}
+.__sort_by{
+    width: 8%;
+    margin: 0;
+}
+.__select{
+    width: 15%;
+}
+.products__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* ------------- Footer Component ------------- */
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+    overflow-x: hidden;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__container p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
